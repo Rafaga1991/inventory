@@ -1,0 +1,867 @@
+[19-Feb-2022 13:56:56 America/Santo_Domingo] PHP Notice:  Undefined index: rol in C:\xampp\htdocs\inventory\core\Model.php on line 159
+[19-Feb-2022 18:07:32 America/Santo_Domingo] PHP Notice:  Undefined variable: FILES in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 18:07:32 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to getPath() must be of the type array, null given, called in C:\xampp\htdocs\inventory\core\.autoload.php on line 8 and defined in C:\xampp\htdocs\inventory\core\functions.php:60
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(8): getPath(NULL, 'Session')
+#1 [internal function]: {closure}('Session')
+#2 C:\xampp\htdocs\inventory\core\.autoload.php(11): spl_autoload_call('Session')
+#3 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\inventory\core\functions.php on line 60
+[19-Feb-2022 18:07:33 America/Santo_Domingo] PHP Notice:  Undefined variable: FILES in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 18:07:33 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to getPath() must be of the type array, null given, called in C:\xampp\htdocs\inventory\core\.autoload.php on line 8 and defined in C:\xampp\htdocs\inventory\core\functions.php:60
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(8): getPath(NULL, 'Session')
+#1 [internal function]: {closure}('Session')
+#2 C:\xampp\htdocs\inventory\core\.autoload.php(11): spl_autoload_call('Session')
+#3 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\inventory\core\functions.php on line 60
+[19-Feb-2022 18:09:21 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:09:22 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:09:39 America/Santo_Domingo] PHP Warning:  include(Html): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 18:09:39 America/Santo_Domingo] PHP Warning:  include(): Failed opening 'Html' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 18:09:39 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:09:40 America/Santo_Domingo] PHP Warning:  include(Html): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 18:09:40 America/Santo_Domingo] PHP Warning:  include(): Failed opening 'Html' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 18:09:40 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:09:48 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:09:49 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:12:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:12:59 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:13:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 18:13:59 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:14:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:14:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:14:55 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:14:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:14:55 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:14:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:16:21 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:16:21 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:16:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:16:22 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:16:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:16:22 Europe/Berlin] PHP Warning:  The use statement with non-compound name 'core' has no effect in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:16:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 7
+[19-Feb-2022 23:16:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Html' not found in C:\xampp\htdocs\inventory\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 6
+[19-Feb-2022 23:16:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Html' not found in C:\xampp\htdocs\inventory\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 6
+[19-Feb-2022 23:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Html' not found in C:\xampp\htdocs\inventory\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 6
+[19-Feb-2022 23:17:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Html' not found in C:\xampp\htdocs\inventory\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 6
+[19-Feb-2022 23:17:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:17:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Html' not found in C:\xampp\htdocs\inventory\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\inventory\index.php on line 5
+[19-Feb-2022 23:17:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\vdump() in C:\xampp\htdocs\inventory\core\.autoload.php:10
+Stack trace:
+#0 [internal function]: core\{closure}('Html')
+#1 C:\xampp\htdocs\inventory\index.php(5): spl_autoload_call('Html')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 23:17:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\vdump() in C:\xampp\htdocs\inventory\core\.autoload.php:10
+Stack trace:
+#0 [internal function]: core\{closure}('Html')
+#1 C:\xampp\htdocs\inventory\index.php(5): spl_autoload_call('Html')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:13:08 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\.autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 13
+[19-Feb-2022 19:13:09 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\.autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 13
+[19-Feb-2022 19:14:39 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'core\Session' not found in C:\xampp\htdocs\inventory\core\.autoload.php:15
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 15
+[19-Feb-2022 19:14:40 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'core\Session' not found in C:\xampp\htdocs\inventory\core\.autoload.php:15
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 15
+[19-Feb-2022 19:15:32 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(23): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:15:33 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(23): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:16:07 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:16:08 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:16:23 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:16:24 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:20:08 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:20:09 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:20:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:20:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Session' not found in C:\xampp\htdocs\inventory\core\Route.php:61
+Stack trace:
+#0 C:\xampp\htdocs\inventory\route.php(4): Route->save()
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(24): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 61
+[19-Feb-2022 19:22:01 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\core\.autoload.php:22
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 22
+[19-Feb-2022 19:22:01 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\core\.autoload.php:22
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 22
+[19-Feb-2022 19:22:33 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'core\Api' not found in C:\xampp\htdocs\inventory\core\Route.php:119
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 119
+[19-Feb-2022 19:22:33 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'core\Api' not found in C:\xampp\htdocs\inventory\core\Route.php:119
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 119
+[19-Feb-2022 19:23:06 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Api.php:179
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Route.php(119): core\Api::exist('')
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Api.php on line 179
+[19-Feb-2022 19:23:06 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Api.php:179
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Route.php(119): core\Api::exist('')
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Api.php on line 179
+[19-Feb-2022 19:27:57 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\createFileOrDir() in C:\xampp\htdocs\inventory\core\Functions.php:418
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 418
+[19-Feb-2022 19:27:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\createFileOrDir() in C:\xampp\htdocs\inventory\core\Functions.php:418
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 418
+[19-Feb-2022 19:28:27 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:267
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(418): core\Functions::createFileOrDir(Array)
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 267
+[19-Feb-2022 19:28:27 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:267
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(418): core\Functions::createFileOrDir(Array)
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 267
+[19-Feb-2022 19:29:20 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function createFileOrDir() in C:\xampp\htdocs\inventory\core\Functions.php:277
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(418): core\Functions::createFileOrDir(Array)
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 277
+[19-Feb-2022 19:29:20 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function createFileOrDir() in C:\xampp\htdocs\inventory\core\Functions.php:277
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(418): core\Functions::createFileOrDir(Array)
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#2 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 277
+[20-Feb-2022 00:29:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(' in C:\xampp\htdocs\inventory\core\Functions.php on line 277
+[20-Feb-2022 00:29:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '(' in C:\xampp\htdocs\inventory\core\Functions.php on line 277
+[19-Feb-2022 19:30:05 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 423
+[19-Feb-2022 19:30:06 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:423
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::init()
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 423
+[19-Feb-2022 19:30:33 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:30:33 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:30:34 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:39:06 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:39:06 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:39:07 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(3): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:43:14 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:43:14 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:43:15 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:48:07 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:07 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:08 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:216
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 216
+[19-Feb-2022 19:48:18 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:18 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:19 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:216
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 216
+[19-Feb-2022 19:48:24 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:24 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:48:25 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:216
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 216
+[19-Feb-2022 19:48:49 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 11
+[19-Feb-2022 19:48:49 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 11
+[19-Feb-2022 19:48:50 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(26): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:49:21 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:49:21 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:49:22 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:50:06 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:50:06 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:50:07 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(25): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:52:10 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:52:10 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:52:11 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(24): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:52:34 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(18): controller\home\HomeController->__construct()
+#2 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 111
+[19-Feb-2022 19:52:35 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#1 C:\xampp\htdocs\inventory\core\.autoload.php(18): controller\home\HomeController->__construct()
+#2 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 111
+[19-Feb-2022 19:53:42 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:53:42 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:53:43 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[20-Feb-2022 00:54:40 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:54:41 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[20-Feb-2022 00:54:41 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:42 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:42 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:42 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:42 America/Santo_Domingo] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\inventory\core\.autoload.php on line 8
+[19-Feb-2022 19:54:42 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:54:56 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:54:56 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 10
+[19-Feb-2022 19:54:57 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:56:20 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(9): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 [internal function]: core\{closure}('HomeController....')
+#2 [internal function]: spl_autoload_call('HomeController')
+#3 C:\xampp\htdocs\inventory\core\Route.php(91): class_exists('HomeController')
+#4 C:\xampp\htdocs\inventory\core\Route.php(168): core\Route->objectExist('HomeController', 'index')
+#5 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#6 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 19:56:21 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:56:47 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(9): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 [internal function]: core\{closure}('HomeController....')
+#2 [internal function]: spl_autoload_call('HomeController')
+#3 C:\xampp\htdocs\inventory\core\Route.php(91): class_exists('HomeController')
+#4 C:\xampp\htdocs\inventory\core\Route.php(168): core\Route->objectExist('HomeController', 'index')
+#5 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#6 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 19:56:48 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:57:02 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(9): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 [internal function]: core\{closure}('HomeController....')
+#2 [internal function]: spl_autoload_call('HomeController')
+#3 C:\xampp\htdocs\inventory\core\Route.php(91): class_exists('HomeController')
+#4 C:\xampp\htdocs\inventory\core\Route.php(168): core\Route->objectExist('HomeController', 'index')
+#5 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#6 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 19:57:03 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:57:24 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getPath() in C:\xampp\htdocs\inventory\core\Functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(9): core\Functions::getPath(Array, 'HomeController....')
+#1 [internal function]: core\{closure}('HomeController....')
+#2 [internal function]: spl_autoload_call('HomeController')
+#3 C:\xampp\htdocs\inventory\core\Route.php(91): class_exists('HomeController')
+#4 C:\xampp\htdocs\inventory\core\Route.php(168): core\Route->objectExist('HomeController', 'index')
+#5 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#6 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 68
+[19-Feb-2022 19:57:25 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 19:59:11 America/Santo_Domingo] PHP Warning:  require_once(HomeController.php): failed to open stream: No such file or directory in C:\xampp\htdocs\inventory\core\.autoload.php on line 11
+[19-Feb-2022 19:59:11 America/Santo_Domingo] PHP Fatal error:  require_once(): Failed opening required 'HomeController.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\inventory\core\.autoload.php on line 11
+[19-Feb-2022 19:59:12 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[20-Feb-2022 01:00:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Functions' not found in C:\xampp\htdocs\inventory\core\.autoload.php:14
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 14
+[20-Feb-2022 01:00:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'core\Functions' not found in C:\xampp\htdocs\inventory\core\.autoload.php:14
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\.autoload.php on line 14
+[19-Feb-2022 20:00:20 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:00:21 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:00:42 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:00:43 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:01:04 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:01:05 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[20-Feb-2022 01:02:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\inventory\core\.autoload.php on line 16
+[20-Feb-2022 01:02:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\inventory\core\.autoload.php on line 16
+[19-Feb-2022 20:02:08 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:02:09 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('C:/xampp/htdocs...')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:02:29 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('/')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:02:30 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getFiles() in C:\xampp\htdocs\inventory\core\Functions.php:43
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getFiles('/')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 43
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$Recycle.Bin,//$Recycle.Bin): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$Recycle.Bin): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$WINDOWS.~BT,//$WINDOWS.~BT): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$WINDOWS.~BT): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$WinREAgent,//$WinREAgent): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  opendir(//$WinREAgent): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:14 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:19 America/Santo_Domingo] PHP Warning:  opendir(//4CC260253B73,//4CC260253B73): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:19 America/Santo_Domingo] PHP Warning:  opendir(//4CC260253B73): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:19 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:23 America/Santo_Domingo] PHP Warning:  opendir(//ADE,//ADE): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:23 America/Santo_Domingo] PHP Warning:  opendir(//ADE): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:24 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:28 America/Santo_Domingo] PHP Warning:  opendir(//AMD,//AMD): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:28 America/Santo_Domingo] PHP Warning:  opendir(//AMD): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:28 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//app,//app): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//app): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Archivos de programa,//Archivos de programa): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Archivos de programa): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//BROM_DLL.log,//BROM_DLL.log): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//BROM_DLL.log): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Config.Msi,//Config.Msi): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Config.Msi): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Documents and Settings,//Documents and Settings): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//Documents and Settings): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//DumpStack.log.tmp,//DumpStack.log.tmp): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//DumpStack.log.tmp): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//hiberfil.sys,//hiberfil.sys): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//hiberfil.sys): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-Carmen_HQ.log,//LTTS_7-Carmen_HQ.log): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-Carmen_HQ.log): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-EngineFull.log,//LTTS_7-EngineFull.log): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-EngineFull.log): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-SDK.log,//LTTS_7-SDK.log): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-SDK.log): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-Spanish.log,//LTTS_7-Spanish.log): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  opendir(//LTTS_7-Spanish.log): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:33 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:38 America/Santo_Domingo] PHP Warning:  opendir(//MinGW,//MinGW): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:38 America/Santo_Domingo] PHP Warning:  opendir(//MinGW): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:38 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:43 America/Santo_Domingo] PHP Warning:  opendir(//OneDriveTemp,//OneDriveTemp): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:43 America/Santo_Domingo] PHP Warning:  opendir(//OneDriveTemp): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:43 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:47 America/Santo_Domingo] PHP Warning:  opendir(//oracle,//oracle): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:47 America/Santo_Domingo] PHP Warning:  opendir(//oracle): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:47 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  opendir(//oraclexe,//oraclexe): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  opendir(//oraclexe): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  opendir(//pagefile.sys,//pagefile.sys): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  opendir(//pagefile.sys): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:52 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//PerfLogs,//PerfLogs): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//PerfLogs): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//Program Files,//Program Files): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//Program Files): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//Program Files (x86),//Program Files (x86)): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  opendir(//Program Files (x86)): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:03:57 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:04:01 America/Santo_Domingo] PHP Warning:  opendir(//ProgramData,//ProgramData): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:01 America/Santo_Domingo] PHP Warning:  opendir(//ProgramData): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:01 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//Recovery,//Recovery): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//Recovery): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//swapfile.sys,//swapfile.sys): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//swapfile.sys): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//System Volume Information,//System Volume Information): El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correcto (code: 123) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  opendir(//System Volume Information): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:06 America/Santo_Domingo] PHP Warning:  readdir() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\inventory\core\Functions.php on line 21
+[19-Feb-2022 20:04:10 America/Santo_Domingo] PHP Warning:  opendir(//Users,//Users): No se ha encontrado la ruta de acceso de la red. (code: 53) in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:04:10 America/Santo_Domingo] PHP Warning:  opendir(//Users): failed to open dir: No such file or directory in C:\xampp\htdocs\inventory\core\Functions.php on line 20
+[19-Feb-2022 20:05:46 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:05:47 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:06:10 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:06:11 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:06:34 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getPath() in C:\xampp\htdocs\inventory\core\Functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::getPath(Array, 'HomeController')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 68
+[19-Feb-2022 20:06:35 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getPath() in C:\xampp\htdocs\inventory\core\Functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(16): core\Functions::getPath(Array, 'HomeController')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 68
+[19-Feb-2022 20:06:48 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getPath() in C:\xampp\htdocs\inventory\core\Functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getPath(Array, 'HomeController')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 68
+[19-Feb-2022 20:06:49 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function getPath() in C:\xampp\htdocs\inventory\core\Functions.php:68
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(15): core\Functions::getPath(Array, 'HomeController')
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 68
+[19-Feb-2022 20:08:02 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:08:03 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\replace() in C:\xampp\htdocs\inventory\core\Html.php:89
+Stack trace:
+#0 C:\xampp\htdocs\inventory\index.php(30): core\Html::OutPut()
+#1 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Html.php on line 89
+[19-Feb-2022 20:08:59 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 20:09:00 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\reload() in C:\xampp\htdocs\inventory\core\Route.php:214
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\.autoload.php(22): core\Route->init(NULL)
+#1 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Route.php on line 214
+[19-Feb-2022 20:12:30 America/Santo_Domingo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\inventory\core\Route.php on line 145
+[19-Feb-2022 20:12:32 America/Santo_Domingo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\inventory\core\Route.php on line 145
+[20-Feb-2022 07:41:26 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\inventory\controller\login\LoginController.php(11): core\Functions::view('footer')
+#1 C:\xampp\htdocs\inventory\core\Route.php(179): controller\login\LoginController->index()
+#2 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#3 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 111
+[20-Feb-2022 07:42:35 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function core\getRoute() in C:\xampp\htdocs\inventory\core\Functions.php:111
+Stack trace:
+#0 C:\xampp\htdocs\inventory\controller\login\LoginController.php(11): core\Functions::view('footer')
+#1 C:\xampp\htdocs\inventory\core\Route.php(179): controller\login\LoginController->index()
+#2 C:\xampp\htdocs\inventory\core\.autoload.php(23): core\Route->init(NULL)
+#3 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Functions.php on line 111
+[20-Feb-2022 07:44:42 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Database.php(73): core\Database->query('DESCRIBE model\\...')
+#1 C:\xampp\htdocs\inventory\core\Model.php(36): core\Database->tableInfo('model\\user')
+#2 C:\xampp\htdocs\inventory\controller\login\LoginController.php(29): core\Model->__construct()
+#3 C:\xampp\htdocs\inventory\core\Route.php(175): controller\login\LoginController->access(Object(core\Request))
+#4 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#5 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
+[20-Feb-2022 07:45:36 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Database.php(73): core\Database->query('DESCRIBE model\\...')
+#1 C:\xampp\htdocs\inventory\core\Model.php(36): core\Database->tableInfo('model\\user')
+#2 C:\xampp\htdocs\inventory\controller\login\LoginController.php(29): core\Model->__construct()
+#3 C:\xampp\htdocs\inventory\core\Route.php(175): controller\login\LoginController->access(Object(core\Request))
+#4 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#5 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
+[20-Feb-2022 07:46:40 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Database.php(73): core\Database->query('DESCRIBE model\\...')
+#1 C:\xampp\htdocs\inventory\core\Model.php(36): core\Database->tableInfo('model\\user')
+#2 C:\xampp\htdocs\inventory\controller\login\LoginController.php(29): core\Model->__construct()
+#3 C:\xampp\htdocs\inventory\core\Route.php(175): controller\login\LoginController->access(Object(core\Request))
+#4 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#5 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
+[20-Feb-2022 07:47:17 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Database.php(73): core\Database->query('DESCRIBE model\\...')
+#1 C:\xampp\htdocs\inventory\core\Model.php(36): core\Database->tableInfo('model\\user')
+#2 C:\xampp\htdocs\inventory\controller\login\LoginController.php(29): core\Model->__construct()
+#3 C:\xampp\htdocs\inventory\core\Route.php(175): controller\login\LoginController->access(Object(core\Request))
+#4 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#5 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
+[20-Feb-2022 07:47:54 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Database.php(73): core\Database->query('DESCRIBE model\\...')
+#1 C:\xampp\htdocs\inventory\core\Model.php(36): core\Database->tableInfo('model\\user')
+#2 C:\xampp\htdocs\inventory\controller\login\LoginController.php(29): core\Model->__construct()
+#3 C:\xampp\htdocs\inventory\core\Route.php(175): controller\login\LoginController->access(Object(core\Request))
+#4 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#5 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
+[20-Feb-2022 07:50:39 America/Santo_Domingo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\inventory\core\Model.php on line 31
+[20-Feb-2022 07:50:39 America/Santo_Domingo] PHP Warning:  array_slice() expects parameter 1 to be array, string given in C:\xampp\htdocs\inventory\core\Model.php on line 31
+[20-Feb-2022 07:53:26 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\view\home\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(115): include()
+#1 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#2 C:\xampp\htdocs\inventory\core\Route.php(169): controller\home\HomeController->__construct()
+#3 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#4 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\inventory\view\home\index.php on line 3
+[20-Feb-2022 07:53:55 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\view\home\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(115): include()
+#1 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#2 C:\xampp\htdocs\inventory\core\Route.php(169): controller\home\HomeController->__construct()
+#3 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#4 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\inventory\view\home\index.php on line 3
+[20-Feb-2022 07:54:26 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\view\home\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(115): include()
+#1 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#2 C:\xampp\htdocs\inventory\core\Route.php(169): controller\home\HomeController->__construct()
+#3 C:\xampp\htdocs\inventory\core\.autoload.php(21): core\Route->init(NULL)
+#4 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\inventory\view\home\index.php on line 3
+[20-Feb-2022 07:56:11 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\inventory\view\home\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\inventory\core\Functions.php(115): include()
+#1 C:\xampp\htdocs\inventory\controller\home\HomeController.php(11): core\Functions::view('home/index')
+#2 C:\xampp\htdocs\inventory\core\Route.php(169): controller\home\HomeController->__construct()
+#3 C:\xampp\htdocs\inventory\core\.autoload.php(20): core\Route->init(NULL)
+#4 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\inventory\view\home\index.php on line 3
+[20-Feb-2022 08:55:36 America/Santo_Domingo] PHP Notice:  Array to string conversion in C:\xampp\htdocs\inventory\core\Html.php on line 27
+[20-Feb-2022 08:55:42 America/Santo_Domingo] PHP Notice:  Array to string conversion in C:\xampp\htdocs\inventory\core\Html.php on line 27
+[20-Feb-2022 08:56:06 America/Santo_Domingo] PHP Notice:  Array to string conversion in C:\xampp\htdocs\inventory\core\Html.php on line 27
+[20-Feb-2022 09:09:32 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in C:\xampp\htdocs\inventory\core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\inventory\model\Employee.php(17): core\Database->query('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\inventory\controller\home\EmployeeController.php(16): model\Employee->getEmployees()
+#2 C:\xampp\htdocs\inventory\core\Route.php(181): controller\home\EmployeeController->index()
+#3 C:\xampp\htdocs\inventory\core\.autoload.php(18): core\Route->init(NULL)
+#4 C:\xampp\htdocs\inventory\index.php(5): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\inventory\core\Database.php on line 35
