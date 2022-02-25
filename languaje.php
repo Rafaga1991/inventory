@@ -2,7 +2,11 @@
 
 return [
     'es' => [
-        'inventory' => 'inventario'
+        'inventory' => 'inventario',
+        'available' => 'disponible',
+        'assigned' => 'asignado',
+        'new' => 'nuevo',
+        'used' => 'usado'
     ],
     'en' => [
     ]

@@ -25,21 +25,25 @@ CREATE TABLE IF NOT EXISTS unittype(
     `delete`        BOOLEAN DEFAULT FALSE
 );
 
+DROP TABLE inventory;
+
 CREATE TABLE IF NOT EXISTS inventory(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     userid          INTEGER(10) NOT NULL,
     idUnitType      INTEGER(10) NOT NULL,
     idBrand         INTEGER(10) NOT NULL,
-    model           VARCHAR(50) NOT NULL,
-    quantity        INTEGER(10) NOT NULL,
+    model           VARCHAR(20) NOT NULL,
+    `serial`        VARCHAR(30) NOT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
+    `state`         VARCHAR(20) DEFAULT 'available' CHECK(`state` IN ('available','assigned')),
     create_at       TIMESTAMP DEFAULT NOW(),
     update_at       TIMESTAMP DEFAULT NOW(),
-    delete_at       TIME,           
+    delete_at       DATE DEFAULT NULL,           
     FOREIGN KEY(idUnitType) REFERENCES unittype(id),
     FOREIGN KEY(idBrand) REFERENCES brand(id),
     FOREIGN KEY(userid) REFERENCES `user`(id)
 );
+
 
 CREATE TABLE IF NOT EXISTS department(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
@@ -50,15 +54,15 @@ CREATE TABLE IF NOT EXISTS department(
     delete_at       INTEGER(15) DEFAULT 0
 );
 
-DROP TABLE employee,department;
+-- DROP TABLE employee,department;
 
 CREATE TABLE IF NOT EXISTS employee(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     `name`          VARCHAR(30) NOT NULL,
     lastname        VARCHAR(30) NOT NULL,
     email           VARCHAR(30) NOT NULL,
-    extentionnumber VARCHAR(30) NOT NULL,
-    `date_add`      INTEGER(15) DEFAULT 0,
+    extentionnumber VARCHAR(10) NOT NULL,
+    `date_add`      DATE DEFAULT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
     idDepartment    INTEGER(10) NOT NULL,
     create_at       TIMESTAMP DEFAULT NOW(),
@@ -66,6 +70,28 @@ CREATE TABLE IF NOT EXISTS employee(
     delete_at       INTEGER(15) DEFAULT 0,
     FOREIGN KEY(idDepartment) REFERENCES department(id)
 );
+
+CREATE TABLE IF NOT EXISTS assigned(
+    id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
+    idInventory     INTEGER(10) NOT NULL,
+    idEmployee      INTEGER(10) NOT NULL,
+    `state`         VARCHAR(20) CHECK(`state` IN ('new', 'used')),
+    `delete`        BOOLEAN DEFAULT FALSE,
+    create_at       TIMESTAMP DEFAULT NOW(),
+    update_at       DATE DEFAULT NULL
+);
+
+-- drop table `file`;
+CREATE TABLE IF NOT EXISTS `file`(
+    idEmployee      INTEGER(10) PRIMARY KEY NOT NULL,
+    `filename`      VARCHAR(50) NOT NULL,
+    extension       VARCHAR(5) NOT NULL,
+    `delete`        BOOLEAN DEFAULT FALSE,
+    create_at       TIMESTAMP DEFAULT NOW(),
+    update_at       DATE DEFAULT NULL
+);
+
+drop table assigned;
 
 /* insertando usuarios por defecto */
 INSERT INTO 
@@ -101,7 +127,10 @@ VALUES
 INSERT INTO 
     employee(`name`,lastname,email,extentionnumber,`date_add`,idDepartment)
 VALUES
-    ('Rafael', 'Minaya Beltrán', 'rminaya@vopm.net', '829-377-5326', UNIX_TIMESTAMP('2021-11-15'), 6);
+    ('Rafael', 'Minaya Beltrán', 'rminaya@vopm.net', '2453', '2021-11-15', 6);
+
+-- Insertando asignaciones de dispositivos
+INSERT INTO assigned(idEmployee,idInventary,`state`) VALUES(1,5,'new');
 
 -- Insertando medios
 INSERT INTO 
@@ -110,5 +139,5 @@ VALUES
     ('Laptop'), ('Teclado'), ('Mouse'), 
     ('Cargador'), ('Base de Laptop'), ('MousePad'), 
     ('Monitor'), ('Celular'), ('Teléfono IP'), ('Audífonos USB'), 
-    ('Audífonos RJ'), ('Adaptador de Red USB');
-
+    ('Audífonos RJ'), ('Adaptador de Red USB'), ('Micrófono'), ('Joystick'),
+    ('Sensor de huella digital'), ('Cámara digital'), ('Cámara web'), ('Joystick');

@@ -115,6 +115,7 @@ class Request{
 
     public function tokenIsValid():bool{
         if(isset($this->variable['__token'])) return $this->variable['__token'] == Session::get('__token');
+        Session::destroy('__token');
         return false;
     }
 

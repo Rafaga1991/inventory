@@ -168,17 +168,18 @@ class Route
                 if ($this->objectExist($route['controller'], $route['function'])) {
                     if($route['rol'] == Session::getRol() || Session::getRol() == self::ROL_ADMIN){
                         Session::set('_view_', $route['name']);
-                        ${$route['controller']} = new $route['controller']();
+                        $variable = 'v' . Functions::generateID();
+                        ${$variable} = new $route['controller']();
                         $reflection = new ReflectionMethod($route['controller'], $route['function']);
                         
                         if ($request->isData() && $data['existparam']){
-                            eval('$view = $' . $route['controller'] . '->' . $route['function'] . '($request,' . $data['params'] . ');');
+                            eval('$view = $' . $variable . '->' . $route['function'] . '($request,' . $data['params'] . ');');
                         }elseif ($request->isData()) {
-                            $view = ${$route['controller']}->{$route['function']}($request);
+                            $view = ${$variable}->{$route['function']}($request);
                         }elseif ($data['existparam']){
-                            eval('$view = $' . $route['controller'] . '->' . $route['function'] . '(' . $data['params'] . ');');
+                            eval('$view = $' . $variable . '->' . $route['function'] . '(' . $data['params'] . ');');
                         }elseif ($reflection->getNumberOfParameters() == 0) {
-                            $view = ${$route['controller']}->{$route['function']}();
+                            $view = ${$variable}->{$route['function']}();
                         }else{
                             Message::add('Se requieren parámetros para esta url.');
                         }
@@ -253,12 +254,13 @@ class Route
 
     public static function isView(string $viewname) { return Session::get('_view_') == $viewname; }
 
-    public static function reload($name)
+    public static function reload(string $name, string $data='')
     {
         if ($route = (Session::get('_ROUTES_')[$name] ?? null)) {
-            header("location: " . HOST . $route['path']);
+            header("location: " . (HOST . $route['path'] . (!empty($data)?'/'.$data.'/':'')));
             exit;
+        }else{
+            Message::add("El nombre <b>$name</b> no existe!");
         }
-        Message::add("El nombre <b>$name</b> no existe!");
     }
 }

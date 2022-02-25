@@ -9,7 +9,8 @@ return [
         'js' => [// carpeta js
             'script.js'
         ],
-        'image'
+        'image',
+        'doc'
     ],
     'view' => [// carpeta vista
         'login' => [// carpeta login
