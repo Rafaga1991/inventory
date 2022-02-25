@@ -58,8 +58,8 @@ class Assigned extends Model {
     public function getLastAssignedDischarge($id = null, bool $group=true){
         return parent::query("SELECT 
             a.id `idAssigned`, a.idEmployee, a.create_at `assigned_at`,
-            CONCAT(e.name, ' ', e.lastname) `fullname`,
-            i.*, ut.name `unitname`, b.name `brandname` ,
+            CONCAT(e.name, ' ', e.lastname) `fullname`, e.delete_at `discharge_at`,
+            i.*, ut.name `unitname`, b.name `brandname`,
             a.state `assignedState`, a.update_at `received_at`
         FROM 
             assigned a 

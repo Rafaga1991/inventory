@@ -29,4 +29,5 @@ $route->set('/inventory/show', [InventoryController::class, 'show'])->name('inve
 
 $route->set('/letter/entry', [LetterController::class, 'entry'])->name('letter.entry')->auth()->save();
 $route->set('/letter', [LetterController::class, 'index'])->name('letter.index')->auth()->save();
+$route->set('/letter/load', [LetterController::class, 'loadDischarge'])->name('letter.load')->auth()->save();
 $route->set('/letter/discharge', [LetterController::class, 'discharge'])->name('letter.discharge')->auth()->save();

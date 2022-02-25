@@ -2,7 +2,7 @@
 
 namespace controller\home;
 
-use core\{Controller, Request, Functions, Html};
+use core\{Controller, Request, Functions, Html, Route};
 use model\Assigned;
 
 class LetterController extends Controller{
@@ -11,9 +11,14 @@ class LetterController extends Controller{
     public function __construct(){ $this->view = Functions::view($this->view); }
 
     public function index(){
-        Functions::vdump((new Assigned())->getLastAssignedDischarge());
+        if($discharge = (new Assigned())->getLastAssignedDischarge()){
+            foreach($discharge as &$value){
+                $value['exists'] = file_exists('asset/doc/' . md5($value['idEmployee']) . '_discharge.pdf');
+            }
+        }
+
         Html::addVariable('body', Functions::view('home/letter/index', [
-            'discharge' => []
+            'discharge' => $discharge
         ]));
         return $this->view;
     }
@@ -33,6 +38,14 @@ class LetterController extends Controller{
                 ]
             );
         }
+    }
+
+    public function loadDischarge(Request $request, $id){
+        if($request->tokenIsValid()){
+            $filename = md5($id) . '_discharge';
+            $request->discharge->moveFileToAsset("doc/$filename");
+        }
+        Route::reload('letter.index');
     }
 
     public function discharge($id){

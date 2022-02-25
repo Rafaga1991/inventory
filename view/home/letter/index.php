@@ -1,6 +1,4 @@
-<?php
-
-namespace core; ?>
+<?php namespace core; ?>
 
 <div class="container-fluid px-4">
     <h1 class="mt-4">Descargo</h1>
@@ -14,13 +12,52 @@ namespace core; ?>
                 <th>Fecha de Descargo</th>
                 <th>Carta</th>
             </tr>
-            <tbody>
+        <tbody>
+            <?php foreach ($discharge as $key => $item) : ?>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <a href="<?= Route::get('employee.show') ?>/<?= $item['idEmployee'] ?>">
+                            <?= $item['fullname'] ?>
+                        </a>
+                    </td>
+                    <td><?= date('d/m/Y', $item['discharge_at']) ?></td>
+                    <td>
+                        <div class="row">
+                            <div class="col text-end">
+                                <form action="<?=Route::get('letter.load')?>/<?=$item['idEmployee']?>" method="post" enctype="multipart/form-data">
+                                    <input type="file" name="discharge" onchange="onChange(this)" hidden>
+                                </form>
+                                <button class="btn btn-outline-primary" onclick="onClick(this)" title="Cargar carta de descargo firmada de <?= $item['fullname'] ?>">
+                                    <i class="fa-solid fa-upload"></i>
+                                </button>
+                            </div>
+                            <div class="col text-end">
+                                <?php if ($item['exists']) : ?>
+                                    <a href="#" title="Carta de Descargo Firmada">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                <?php endif; ?>
+                            </div>
+                            <div class="col text-start">
+                                <a href="#" title="Carta de Descargo">
+                                    <i class="fa-solid fa-envelope-open"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
-            </tbody>
+            <?php endforeach; ?>
+        </tbody>
         </thead>
     </table>
 </div>
+
+<script>
+    function onChange(event){
+        $(event).parent().submit();
+    }
+
+    function onClick(event){
+        $(event).parent().find('form').find('input[hidden]').click();
+    }
+</script>

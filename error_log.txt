@@ -1445,3 +1445,103 @@ Stack trace:
 #4 /opt/lampp/htdocs/inventory/index.php(5): require_once('/opt/lampp/htdo...')
 #5 {main}
   thrown in /opt/lampp/htdocs/inventory/core/Database.php on line 35
+[25-Feb-2022 16:16:52 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:16:52 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/inventory/view/home/letter/index.php:20
+Stack trace:
+#0 /opt/lampp/htdocs/inventory/core/Functions.php(115): include()
+#1 /opt/lampp/htdocs/inventory/controller/home/LetterController.php(21): core\Functions::view('home/letter/ind...', Array)
+#2 /opt/lampp/htdocs/inventory/core/Route.php(182): controller\home\LetterController->index()
+#3 /opt/lampp/htdocs/inventory/core/.autoload.php(18): core\Route->init(NULL)
+#4 /opt/lampp/htdocs/inventory/index.php(5): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/inventory/view/home/letter/index.php on line 20
+[25-Feb-2022 16:17:13 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:17:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:18:10 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:18:42 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:19:17 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:19:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:19:53 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:20:03 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:20:55 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:21:08 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:22:14 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:22:25 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:22:26 America/Santo_Domingo] PHP Warning:  Attempt to read property "filename" on null in /opt/lampp/htdocs/inventory/controller/home/EmployeeController.php on line 52
+[25-Feb-2022 16:22:26 America/Santo_Domingo] PHP Warning:  Attempt to read property "extension" on null in /opt/lampp/htdocs/inventory/controller/home/EmployeeController.php on line 52
+[25-Feb-2022 16:22:40 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:22:43 America/Santo_Domingo] PHP Warning:  Attempt to read property "filename" on null in /opt/lampp/htdocs/inventory/controller/home/EmployeeController.php on line 52
+[25-Feb-2022 16:22:43 America/Santo_Domingo] PHP Warning:  Attempt to read property "extension" on null in /opt/lampp/htdocs/inventory/controller/home/EmployeeController.php on line 52
+[25-Feb-2022 16:22:52 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 16
+[25-Feb-2022 16:24:58 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:24:58 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:25:40 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:25:40 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:25:58 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:25:58 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:26:55 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:26:55 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:23 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:23 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:33 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:33 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:27:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:28:22 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:28:22 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:29:00 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:29:00 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:34:36 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:34:36 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:35:29 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:35:29 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:01 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:01 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:17 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:17 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:36:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:38:16 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:38:16 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:03 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:03 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:26 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:26 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:46 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:39:46 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:22 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:22 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:32 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:32 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:54 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:41:54 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:40 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:40 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:46 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:42:46 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:44:09 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:44:09 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:44:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:44:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:45:09 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:45:09 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:46:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:46:41 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:32 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:32 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:50 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:50 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:55 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:50:55 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:51:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:51:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
+[25-Feb-2022 16:51:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:51:59 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
+[25-Feb-2022 16:52:27 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
+[25-Feb-2022 16:52:27 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmploye" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
+[25-Feb-2022 16:52:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmployee" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:52:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmployee" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
+[25-Feb-2022 16:52:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmployee" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 17
+[25-Feb-2022 16:52:43 America/Santo_Domingo] PHP Warning:  Undefined array key "idEmployee" in /opt/lampp/htdocs/inventory/controller/home/LetterController.php on line 18
