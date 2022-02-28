@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS unittype(
     `delete`        BOOLEAN DEFAULT FALSE
 );
 
-DROP TABLE inventory;
+-- DROP TABLE inventory;
 
 CREATE TABLE IF NOT EXISTS inventory(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
@@ -55,13 +55,12 @@ CREATE TABLE IF NOT EXISTS department(
 );
 
 -- DROP TABLE employee,department;
-
 CREATE TABLE IF NOT EXISTS employee(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     `name`          VARCHAR(30) NOT NULL,
     lastname        VARCHAR(30) NOT NULL,
     email           VARCHAR(30) NOT NULL,
-    extentionnumber VARCHAR(10) NOT NULL,
+    extensionnumber VARCHAR(10) NOT NULL,
     `date_add`      DATE DEFAULT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
     idDepartment    INTEGER(10) NOT NULL,
@@ -71,6 +70,7 @@ CREATE TABLE IF NOT EXISTS employee(
     FOREIGN KEY(idDepartment) REFERENCES department(id)
 );
 
+DROP TABLE assigned;
 CREATE TABLE IF NOT EXISTS assigned(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     idInventory     INTEGER(10) NOT NULL,
@@ -125,7 +125,7 @@ VALUES
 
 -- Insertando empleados
 INSERT INTO 
-    employee(`name`,lastname,email,extentionnumber,`date_add`,idDepartment)
+    employee(`name`,lastname,email,extensionnumber,`date_add`,idDepartment)
 VALUES
     ('Rafael', 'Minaya Beltrán', 'rminaya@vopm.net', '2453', '2021-11-15', 6);
 

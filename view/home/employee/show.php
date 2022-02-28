@@ -97,7 +97,7 @@ namespace core; ?>
                 <div class="col-5">
                     <span class="fw-bold"><i class="fa-solid fa-hashtag"></i> Extensi&oacute;n:</span>
                 </div>
-                <div class="col"><span class="fw-bold"><?= $employee->extentionnumber ?></span></div>
+                <div class="col"><span class="fw-bold"><?= $employee->extensionnumber ?></span></div>
             </div>
 
             <div class="row p-2">

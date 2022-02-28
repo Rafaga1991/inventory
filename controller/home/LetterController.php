@@ -49,6 +49,19 @@ class LetterController extends Controller{
     }
 
     public function discharge($id){
+        if($assigned = (new Assigned())->getAssignedById($id, 'idEmployee')){
+            Html::addVariables([
+                'EMPLOYEE'=>($assigned[0]['fullname'] ?? ''),
+                'DATE' => date('d/m/Y', time()),
+                'BUSINESS' => 'Grupo VOPM'
+            ]);
 
+            return Functions::view(
+                'home/letter/discharge', 
+                [
+                    'assigned' => $assigned
+                ]
+            );
+        }
     }
 }

@@ -98,7 +98,7 @@
             <?php endforeach; ?>
             <?php if (!$inventory) : ?>
                 <tr>
-                    <td colspan="3" class="text-center">No hay datos disponibles.</td>
+                    <td colspan="5" class="text-center">No hay datos disponibles.</td>
                 </tr>
             <?php endif; ?>
         </tbody>

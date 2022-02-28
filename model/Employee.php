@@ -9,7 +9,7 @@ class Employee extends Model {
         $query = "SELECT 
             e.id, e.name, e.lastname, 
             CONCAT(e.name, ' ', e.lastname) `fullname`,
-            e.email, e.date_add, e.extentionnumber, 
+            e.email, e.date_add, e.extensionnumber, 
             d.name `department` 
         FROM employee e 
             INNER JOIN department d

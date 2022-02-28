@@ -57,7 +57,7 @@ namespace core; ?>
                                             <div class="row">
                                                 <div class="col">
                                                     <label for="" class="form-label"><i class="fa-solid fa-hashtag"></i> N&uacute;mero de Extensi&oacute;n</label>
-                                                    <input type="number" name="employee[extentionnumber]" class="form-control" min="4" placeholder="extensión" required>
+                                                    <input type="number" name="employee[extensionnumber]" class="form-control" min="4" placeholder="extensión" required>
                                                 </div>
                                                 <div class="col">
                                                     <label for="" class="form-label">Fecha de Ingreso</label>

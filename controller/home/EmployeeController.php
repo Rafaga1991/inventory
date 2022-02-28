@@ -49,7 +49,7 @@ class EmployeeController extends Controller{
 				'body' => Functions::view('home/employee/show', [
 					'employee' => $employee, 'inventory' => $inventory
 				]),
-				'URL_ENTRY' => Functions::asset("doc/$file->filename.$file->extension")
+				'URL_ENTRY' => ($file)?Functions::asset("doc/$file->filename.$file->extension"):''
 			]);
 		}else{
 			Route::reload('employee.index');
@@ -127,7 +127,7 @@ class EmployeeController extends Controller{
 			$filename = md5($id);
 			$data = pathinfo($request->letterEntry->name);
 			$path = "doc/$filename.{$data['extension']}";
-			if(file_exists($path)) unlink($path); 
+			if(file_exists($path)) unlink($path);
 			$request->letterEntry->moveFileToAsset($filename, 'doc');
 			if(!$file = (new File())->find($id)){
 				(new File())->insert([

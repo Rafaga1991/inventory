@@ -4,7 +4,7 @@ namespace core;
 
 header('Access-Control-Allow-Origin: *');// permitiendo acceso de origen remoto.
 
-spl_autoload_register(function($class){ require_once str_replace("\\", '/', "$class.php", $count); });
+spl_autoload_register(function($class){ require_once str_replace("\\", '/', "$class.php"); });
 
 Functions::init();
 Session::init();

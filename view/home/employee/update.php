@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col">
                     <label for="" class="form-label"><i class="fa-solid fa-hashtag"></i> N&uacute;mero de Extensi&oacute;n <span class="text-danger">*</span></label>
-                    <input type="number" name="employee[extentionnumber]" value="<?=$employee->extentionnumber?>" class="form-control" min='4' required>
+                    <input type="number" name="employee[extensionnumber]" value="<?=$employee->extensionnumber?>" class="form-control" min='4' required>
                     <span class="text-muted">N&uacute;mero de extensi&oacute;n del empleado.</span>
                 </div>
                 <div class="col">
