@@ -1,7 +1,7 @@
-<?php namespace core;?>
+<?php namespace core; ?>
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
     <!-- Navbar Brand-->
-    <a class="navbar-brand ps-3" href="<?=Route::get('home.index')?>"><img src="<?=Functions::asset('image/logo.png')?>" alt="" width="50"> <?=Functions::traslate(PROYECT_NAME)?></a>
+    <a class="navbar-brand ps-3" href="<?= Route::get('home.index') ?>"><img src="<?= Functions::asset('image/logo.png') ?>" alt="" width="50"> <?= Functions::traslate(PROYECT_NAME) ?></a>
     <!-- Sidebar Toggle-->
     <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
     <!-- Navbar Search-->
@@ -16,10 +16,12 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">Opciones</a></li>
-                <li><a class="dropdown-item" href="#!">Actividades</a></li>
-                <li><hr class="dropdown-divider"/></li>
-                <li><a class="dropdown-item" href="<?=Route::get('home.logout')?>">Cerrar Sesi&oacute;n</a></li>
+                <li><a class="dropdown-item" href="<?= Route::get('config.option') ?>">Perfil</a></li>
+                <li><a class="dropdown-item" href="<?= Route::get('config.activity') ?>">Actividades</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="<?= Route::get('home.logout') ?>">Cerrar Sesi&oacute;n</a></li>
             </ul>
         </li>
     </ul>
@@ -30,30 +32,36 @@
             <div class="sb-sidenav-menu">
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Centro</div>
-                    <a class="nav-link" href="<?=Route::get('home.index')?>">
+                    <a class="nav-link" href="<?= Route::get('home.index') ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Tablero
                     </a>
-                    <a class="nav-link" href="<?=Route::get('employee.index')?>">
+                    <a class="nav-link" href="<?= Route::get('employee.index') ?>">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-user-tie"></i></div>
                         Empleados
                     </a>
-                    <a class="nav-link" href="<?=Route::get('inventory.index')?>">
+                    <a class="nav-link" href="<?= Route::get('inventory.index') ?>">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                         Inventario
                     </a>
-                    <a class="nav-link" href="<?=Route::get('letter.index')?>">
+                    <a class="nav-link" href="<?= Route::get('letter.index') ?>">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-envelope"></i></i></div>
                         Carta de Descargo
                     </a>
+                    <?php if (Functions::isAdmin()) : ?>
+                        <a class="nav-link" href="<?= Route::get('user.index') ?>">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-user"></i></i></div>
+                            Usuarios
+                        </a>
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="sb-sidenav-footer">
                 <div class="small">Logueado como:</div>
                 <span class="text-uppercase">
-                    <?=Session::getUser('username')?>
+                    <?= Session::getUser('username') ?>
                 </span>
-                <div class="small" style="font-size: 10px;">[<?=Route::ROL[Session::getRol()]?>]</div>
+                <div class="small" style="font-size: 10px;">[<?= Route::ROL[Session::getRol()] ?>]</div>
             </div>
         </nav>
     </div>
@@ -67,7 +75,7 @@
         <footer class="py-4 bg-light mt-auto">
             <div class="container-fluid px-4">
                 <div class="d-flex align-items-center justify-content-between small">
-                    <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                    <div class="text-muted">Copyright &copy; <?= PROYECT_NAME ?> 2022</div>
                     <div>
                         <a href="#">Privacy Policy</a>
                         &middot;

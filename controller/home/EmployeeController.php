@@ -13,9 +13,9 @@ class EmployeeController extends Controller{
 	public function index():string{
 		$employees = (new Employee())->getEmployees();
 		$departments = (new Department())->where(['delete' => false])->get();
-
 		Html::addVariables([
-			'body' => Functions::view('home/employee/employees', 
+			'body' => Functions::view(
+				'home/employee/employees', 
 				[
 					'employees' => $employees, 
 					'departments' => $departments
@@ -44,12 +44,13 @@ class EmployeeController extends Controller{
 			$file = (new File())->find($id);
 
 			$employee->letterEntryExists = $file != null;
-
+			$employee->letterEntrySigned = (new File())->where(['idEmployee' => $employee->id, 'delete' => 0, 'type' => 'L-E'])->get();
+			
 			Html::addVariables([
 				'body' => Functions::view('home/employee/show', [
 					'employee' => $employee, 'inventory' => $inventory
 				]),
-				'URL_ENTRY' => ($file)?Functions::asset("doc/$file->filename.$file->extension"):''
+				'URL_ENTRY' => ($file)?Functions::asset("doc/letter/entry/$file->filename.$file->extension"):''
 			]);
 		}else{
 			Route::reload('employee.index');
@@ -124,18 +125,15 @@ class EmployeeController extends Controller{
 
 	public function loadLetter(Request $request, $id){
 		if($request->tokenIsValid()){
-			$filename = md5($id);
+			$filename = md5($id.Functions::generateID().time());
 			$data = pathinfo($request->letterEntry->name);
-			$path = "doc/$filename.{$data['extension']}";
-			if(file_exists($path)) unlink($path);
-			$request->letterEntry->moveFileToAsset($filename, 'doc');
-			if(!$file = (new File())->find($id)){
-				(new File())->insert([
-					'idEmployee' => $id,
-					'filename' => $filename,
-					'extension' => $data['extension']
-				]);
-			}
+			$request->letterEntry->moveFileToAsset($filename, 'doc/letter/entry');
+			(new File())->insert([
+				'idEmployee' => $id,
+				'filename' => $filename,
+				'extension' => $data['extension'],
+				'type' => 'L-E'
+			]);
 		}
 		Route::reload('employee.show', $id);
 	}

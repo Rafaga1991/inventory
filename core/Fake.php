@@ -189,7 +189,7 @@ class Fake{
      * Genera numeros aleatorios.
      * 
      * @access private
-     * @param int $cant recive la cantidad de números a generar.
+     * @param int $cant recibe la cantidad de números a generar.
      * @return string retorna los números genrados y concatenados.
      * @author Rafael Minaya
      * @copyright R.M.B.

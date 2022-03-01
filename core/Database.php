@@ -22,7 +22,7 @@ class Database{
      * Realiza las consultas hacia la base de datos.
      * 
      * @access protected
-     * @param string $sql recive la consulta a realizar.
+     * @param string $sql recibe la consulta a realizar.
      * @return array retorna un arreglo de registros encontrados.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -31,6 +31,7 @@ class Database{
     protected function query(string $sql):array{
         $data = [];
         $link = $this->getConnect();
+        $link->set_charset('utf8');
         $query = mysqli_query($link, $sql);
         while($row = $query->fetch_array()){
             foreach($row as $key => $col){
@@ -46,7 +47,7 @@ class Database{
      * Ejecuta la consultas que no requieren respuesta.
      * 
      * @access protected
-     * @param string $sql recive la consulta a ejecutar.
+     * @param string $sql recibe la consulta a ejecutar.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -54,6 +55,7 @@ class Database{
      */
     protected function exec(string $sql):void{
         $link = $this->getConnect();
+        $link->set_charset('utf8');
         mysqli_query($link, $sql);
         $this->lastID = mysqli_insert_id($link);
         mysqli_close($link);
@@ -63,7 +65,7 @@ class Database{
      * Obtiene información de una tabla en especifico.
      * 
      * @access protected
-     * @param string $table recive el nombre de la tabla.
+     * @param string $table recibe el nombre de la tabla.
      * @return array retorna un arreglo de la información obtenida.
      * @author Rafael Minaya
      * @copyright R.M.B.

@@ -3,7 +3,7 @@
 namespace controller\home;
 
 use core\{Controller, Functions, Html, Message, Request, Route, Session};
-use model\{Assigned, Brand, UnitType, Inventory};
+use model\{Assigned, Brand, Department, UnitType, Inventory};
 
 class InventoryController extends Controller{
     private $view = 'home/index';
@@ -54,13 +54,10 @@ class InventoryController extends Controller{
         Route::reload('inventory.index');
     }
 
-    public function show($brandID, $unitID){
-        if($inventory = (new Inventory())->getInventoryById($brandID, $unitID)){
+    public function show($id){
+        if($inventory = (new Inventory())->getInventoryById($id)){
             $assigned = (new Assigned())->getLastAssigned($inventory[0]['id']);
-            foreach($inventory as &$item){
-                $item['assigned'] = (new Assigned())->getAssignedById($item['id']);
-            }
-
+            foreach($inventory as &$item) $item['assigned'] = (new Assigned())->getAssignedById($item['id']);
             Html::addVariables([
                 'body' => Functions::view('home/inventory/show', [
                     'inventory' => $inventory,

@@ -8,8 +8,8 @@ trait Functions{
      * Busca todos los archivos en una ruta especificada
      * 
      * @access public
-     * @param string $path recive la ruta a buscar.
-     * @param array $exception recive los nombres de los archivos o carpetas a obviar.
+     * @param string $path recibe la ruta a buscar.
+     * @param array $exception recibe los nombres de los archivos o carpetas a obviar.
      * @return array retorna un arreglo de rutas.
      * @author Rafael Minaya
      * @copyright R.M.B
@@ -55,8 +55,8 @@ trait Functions{
      * Busca un indice en espeficico en una matriz de archivos.
      * 
      * @access public
-     * @param array $files recive una matriz de archivos.
-     * @param string $search recive el nombre del indice a buscar en la matriz.
+     * @param array $files recibe una matriz de archivos.
+     * @param string $search recibe el nombre del indice a buscar en la matriz.
      * @return string retorna el valor del indice encontrado.
      * @author Rafael Minaya
      * @copyright R.M.B
@@ -86,7 +86,7 @@ trait Functions{
      * Modifica la ruta actual y retrocede una carpeta hacia la raiz.
      * 
      * @access public
-     * @param string $path recive una ruta opcional la cual sera concatenada.
+     * @param string $path recibe una ruta opcional la cual sera concatenada.
      * @return string retorna la ruta raiz.
      * @author Rafael Minaya
      * @copyright R.M.B
@@ -103,8 +103,8 @@ trait Functions{
      * Carga y retorna una vista.
      * 
      * @access public
-     * @param string $view recive la ruta de la vista sin extencion.
-     * @param array $data recive un arreglo de valores a utilizar en la vista.
+     * @param string $view recibe la ruta de la vista sin extencion.
+     * @param array $data recibe un arreglo de valores a utilizar en la vista.
      * @return string retorna una vista.
      * @author Rafael Minaya
      * @copyright R.M.B
@@ -129,8 +129,8 @@ trait Functions{
      * Muestra el contenido de un objeto
      * 
      * @access public
-     * @param $value recive un objeto cualquiera.
-     * @param $die recive un valor booleano.
+     * @param $value recibe un objeto cualquiera.
+     * @param $die recibe un valor booleano.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -167,8 +167,8 @@ trait Functions{
      * Redirecciona a otra vista del mismo u otro controlador verificando que se tenga acceso a la misma.
      * 
      * @access public
-     * @param array $action recive un arreglo que contiene la clase del controlador y la función.
-     * @param $data recive los datos que seran enviados a la función.
+     * @param array $action recibe un arreglo que contiene la clase del controlador y la función.
+     * @param $data recibe los datos que seran enviados a la función.
      * @return string retorna la vista de la función.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -202,7 +202,7 @@ trait Functions{
      * retrocede una carpeta y retorna la nueva ruta mediante la ruta pasada por parametro.
      * 
      * @access public
-     * @param string $path recive la ruta que retrocedera.
+     * @param string $path recibe la ruta que retrocedera.
      * @return string retorna la nueva ruta.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -219,7 +219,7 @@ trait Functions{
      * retorna la ruta de un archivo dentro de una carpeta asset
      * 
      * @access public
-     * @param string $path recive la ruta del archivo a retornar.
+     * @param string $path recibe la ruta del archivo a retornar.
      * @return string retorna la ruta de un archivo en asset.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -234,8 +234,8 @@ trait Functions{
      * Crea archivos o directorios.
      * 
      * @access public 
-     * @param array $paths recive las rutas de los archivos o directorios a crear.
-     * @param string recive la ruta a crear recursivamente.
+     * @param array $paths recibe las rutas de los archivos o directorios a crear.
+     * @param string recibe la ruta a crear recursivamente.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -312,9 +312,9 @@ trait Functions{
      * elimina una palabra u oracion en un cadena de texto.
      * 
      * @access public
-     * @param string $text recive el texto donde se realizará la busqueda.
-     * @param string $char_start recive el texto inicial a buscar.
-     * @param string $char_end recive el texto final a buscar.
+     * @param string $text recibe el texto donde se realizará la busqueda.
+     * @param string $char_start recibe el texto inicial a buscar.
+     * @param string $char_end recibe el texto final a buscar.
      * @return string retorna una cadena de texto ya recorrida. 
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -332,8 +332,8 @@ trait Functions{
      * Muestra una alerta.
      * 
      * @access public
-     * @param string $message recive el mensaje que será mostrado.
-     * @param string $type recive el tipo del mensaje que será mostrado.
+     * @param string $message recibe el mensaje que será mostrado.
+     * @param string $type recibe el tipo del mensaje que será mostrado.
      * @return string retorna una alerta.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -353,8 +353,8 @@ trait Functions{
      * Traduce una palabra a español o ingles.
      * 
      * @access public
-     * @param string $value recive el valor a traducir.
-     * @param string $lang recive el idioma al que será traducido.
+     * @param string $value recibe el valor a traducir.
+     * @param string $lang recibe el idioma al que será traducido.
      * @return string retorna la palabra traducida.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -370,7 +370,7 @@ trait Functions{
      * Redirecciona a una url especifica.
      * 
      * @access public
-     * @param string $path recive la ruta a redireccionar.
+     * @param string $path recibe la ruta a redireccionar.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -386,9 +386,9 @@ trait Functions{
      * Verifica si existe un valor en el arreglo y retorna el valor enviado por parametros.
      * 
      * @access public
-     * @param mixed $data recive el valor a buscar.
-     * @param array $value recive un arreglo de posibles coincidencias.
-     * @param array $return recive un arreglo de posibles valores a retornar.
+     * @param mixed $data recibe el valor a buscar.
+     * @param array $value recibe un arreglo de posibles coincidencias.
+     * @param array $return recibe un arreglo de posibles valores a retornar.
      * @return string retorna un string del valor encontrado.
      * @author Rafael Minaya.
      * @copyright R.M.B.
@@ -405,8 +405,8 @@ trait Functions{
      * incluye archivos php con sus datos correspondientes.
      * 
      * @access public
-     * @param $path recive las rutas que seran incluidas.
-     * @param $data recive los datos que serán incluidos en cada ruta especifica.
+     * @param $path recibe las rutas que seran incluidas.
+     * @param $data recibe los datos que serán incluidos en cada ruta especifica.
      * @return void sin retorno.
      * @author Rafael Minaya.
      * @copyright R.M.B.
@@ -423,6 +423,18 @@ trait Functions{
             extract($data);
             include $path;
         }
+    }
+
+    public static function specialChar(string $text){
+        return str_replace([
+            'á','é','í','ó','ú',
+            'Á','É','Í','Ó','Ú',
+            'ñ','Ñ'
+        ], [
+            '&aacute;','&eacute;','&iacute;','&oacute;','&uacute;',
+            '&Aacute;','&Eacute;','&Iacute;','&Oacute;','&Uacute;',
+            '&ntilde;','&Ntilde;'
+        ], $text);
     }
     
     /**

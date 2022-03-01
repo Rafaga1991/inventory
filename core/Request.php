@@ -90,9 +90,7 @@ class Request{
         $this->createVariable();
     }
 
-    public function getData(){
-        return $this->data;
-    }
+    public function getData(){ return $this->data; }
 
     public function isData(){
         return !empty($this->data);
@@ -140,4 +138,6 @@ class Request{
             unset($this->data[$name]);
         }
     }
+
+    public function response($data=[], $message='Solicitud Recibida'){ return ['data' => $data, 'message' => $message, 'request' => true]; }
 }

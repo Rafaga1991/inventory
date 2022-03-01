@@ -49,8 +49,8 @@ class Model extends Database{
      * Funcion magica, verifica y agrega una variable que fue creada dinamicamente.
      * 
      * @access public
-     * @param string $name recive el nombre de la variable creada.
-     * @param mixed $value recive el valor asignado a dicha varible.
+     * @param string $name recibe el nombre de la variable creada.
+     * @param mixed $value recibe el valor asignado a dicha varible.
      * @return void sin retorno.
      * @version 1.1
      * @author Rafael Minaya
@@ -69,7 +69,7 @@ class Model extends Database{
      * Agrega los datos extraidos de la base de datos al modelo.
      * 
      * @access public
-     * @param array $data recive un arreglo de datos.
+     * @param array $data recibe un arreglo de datos.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -85,7 +85,7 @@ class Model extends Database{
      * Retorna el valor máximo de los registros en db.
      * 
      * @access public
-     * @param string $column recive el nombre de la columna.
+     * @param string $column recibe el nombre de la columna.
      * @return int retorna el valor maximo encontrado.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -100,7 +100,7 @@ class Model extends Database{
      * Retorna el valor minimo de los registros en db.
      * 
      * @access public
-     * @param string $column recive el nombre de la columna.
+     * @param string $column recibe el nombre de la columna.
      * @return int retorna el valor minimo encontrado.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -115,7 +115,7 @@ class Model extends Database{
      * Retorna la sumatoria total de una columna.
      * 
      * @access public
-     * @param string $column recive el nombre de la columna.
+     * @param string $column recibe el nombre de la columna.
      * @return int retorna la sumatoria.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -130,7 +130,7 @@ class Model extends Database{
      * Realiza una consulta a la base de datos.
      * 
      * @access public
-     * @param string sql recive un código sql.
+     * @param string sql recibe un código sql.
      * @return array retorna los datos extraidos de la base de datos.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -156,7 +156,7 @@ class Model extends Database{
      * Funcion Magica, retorna el valor de una variable dinamica.
      * 
      * @access public
-     * @param string $name recive el nombre de la variable a buscar.
+     * @param string $name recibe el nombre de la variable a buscar.
      * @return mixed retorna el valor de la variable buscada.
      * @version 1.0
      * @author Rafael Minaya
@@ -197,7 +197,7 @@ class Model extends Database{
      * Crea condiciones para la consulta a la base de datos.
      * 
      * @access private
-     * @param array $arr recive un arreglo de condiciones.
+     * @param array $arr recibe un arreglo de condiciones.
      * @param string $separator
      */
     private function _where(array $arr, string $separator = ',') : string{

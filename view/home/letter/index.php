@@ -33,13 +33,14 @@
                             </div>
                             <div class="col text-end">
                                 <?php if ($item['exists']) : ?>
-                                    <a href="#" title="Carta de Descargo Firmada">
+                                    <a href="<?=Functions::asset($item['url_discharge'])?>" title="Carta de Descargo Firmada" target="_bank">
                                         <i class="fa-solid fa-envelope"></i>
                                     </a>
                                 <?php endif; ?>
                             </div>
                             <div class="col text-start">
-                                <a href="#" title="Carta de Descargo">
+                                <iframe src="<?=Route::get('letter.discharge')?>/<?=$item['idEmployee']?>" frameborder="0" hidden></iframe>
+                                <a href="#" title="Carta de Descargo" onclick="idownload(this)">
                                     <i class="fa-solid fa-envelope-open"></i>
                                 </a>
                             </div>
@@ -59,5 +60,9 @@
 
     function onClick(event){
         $(event).parent().find('form').find('input[hidden]').click();
+    }
+
+    function idownload(event){
+        $(event).parent().find('iframe[hidden]')[0].contentWindow.print();
     }
 </script>

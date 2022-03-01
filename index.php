@@ -6,6 +6,8 @@ require_once './core/.autoload.php';
 
 Html::addMeta(['charset' => 'UTF-8']);
 Html::addMeta(['http-equiv' => 'X-UA-Compatible', 'content' => 'IE=edge']);
+Html::addMeta(['http-equiv' => 'Content-Type', 'content' => 'text/html; charset=UTF-8']);
+// Html::addMeta(['http-equiv' => 'Content-Type', 'content' => 'text/html; charset=ISO-8859-1']);
 Html::addMeta(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0']);
 
 Html::setTitle(PROYECT_NAME);
@@ -22,6 +24,7 @@ Html::addScript(['src' => 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/j
 Html::addScript(['src' => 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', 'integrity' => 'sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p', 'crossorigin' => 'anonymous']);
 Html::addScript(['src' => 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js', 'crossorigin' => 'anonymous']);
 Html::addScript(['src' => 'https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js']);
+Html::addScript(['src' => 'https://cdn.jsdelivr.net/npm/sweetalert2@11']);
 Html::addScript(['src' => Functions::asset('js/script.js')]);
 Html::addScript(['src' => Functions::asset('js/demo/chart-area-demo.js')]);
 Html::addScript(['src' => Functions::asset('js/demo/chart-bar-demo.js')]);

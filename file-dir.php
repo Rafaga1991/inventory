@@ -10,7 +10,9 @@ return [
             'script.js'
         ],
         'image',
-        'doc'
+        'doc' => [
+            'letter' => ['entry', 'discharge']
+        ]
     ],
     'view' => [// carpeta vista
         'login' => [// carpeta login
@@ -30,7 +32,8 @@ return [
         ],
         'home' => [
             'EmployeeController.php',
-            'HomeController.php'
+            'HomeController.php',
+            'UserController.php'
         ]
     ],
     'route.php',

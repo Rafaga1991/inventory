@@ -2,7 +2,7 @@
 
 namespace core;
 
-use controller\home\{HomeController,EmployeeController,InventoryController,LetterController};
+use controller\home\{ConfigController, HomeController,EmployeeController,InventoryController,LetterController, UserController};
 use controller\login\LoginController;
 
 /** @var Route $route */
@@ -31,3 +31,11 @@ $route->set('/letter/entry', [LetterController::class, 'entry'])->name('letter.e
 $route->set('/letter', [LetterController::class, 'index'])->name('letter.index')->auth()->save();
 $route->set('/letter/load', [LetterController::class, 'loadDischarge'])->name('letter.load')->auth()->save();
 $route->set('/letter/discharge', [LetterController::class, 'discharge'])->name('letter.discharge')->auth()->save();
+
+$route->set('/user', [UserController::class, 'index'])->name('user.index')->auth()->rol(Route::ROL_ADMIN)->save();
+$route->set('/user/update', [UserController::class, 'update'])->name('user.update')->auth()->rol(Route::ROL_ADMIN)->save();
+$route->set('/user/change', [UserController::class, 'change'])->name('user.change')->auth()->save();
+$route->set('/user/new', [UserController::class, 'newUser'])->name('user.new')->auth()->save();
+
+$route->set('/option', [ConfigController::class, 'options'])->name('config.option')->auth()->save();
+$route->set('/activity', [ConfigController::class, 'activity'])->name('config.activity')->auth()->save();

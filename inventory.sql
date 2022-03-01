@@ -4,8 +4,10 @@ USE inventory;
 
 CREATE TABLE IF NOT EXISTS `user`(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
-    `username`      VARCHAR(30) NOT NULL,
+    `username`      VARCHAR(30) NOT NULL UNIQUE,
     `password`      VARCHAR(40) NOT NULL,
+    `email`         VARCHAR(50) NOT NULL,
+    fullname        VARCHAR(30) NOT NULL,
     `admin`         BOOLEAN DEFAULT FALSE,
     `delete`        BOOLEAN DEFAULT FALSE,
     create_at       TIMESTAMP DEFAULT NOW(),
@@ -15,13 +17,13 @@ CREATE TABLE IF NOT EXISTS `user`(
 
 CREATE TABLE IF NOT EXISTS brand(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
-    `name`          VARCHAR(30) NOT NULL,
+    `name`          VARCHAR(30) NOT NULL UNIQUE,
     `delete`        BOOLEAN DEFAULT FALSE
 );
 
 CREATE TABLE IF NOT EXISTS unittype(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
-    `name`          VARCHAR(30) NOT NULL,
+    `name`          VARCHAR(30) NOT NULL UNIQUE,
     `delete`        BOOLEAN DEFAULT FALSE
 );
 
@@ -33,7 +35,7 @@ CREATE TABLE IF NOT EXISTS inventory(
     idUnitType      INTEGER(10) NOT NULL,
     idBrand         INTEGER(10) NOT NULL,
     model           VARCHAR(20) NOT NULL,
-    `serial`        VARCHAR(30) NOT NULL,
+    `serial`        VARCHAR(30) NOT NULL UNIQUE,
     `delete`        BOOLEAN DEFAULT FALSE,
     `state`         VARCHAR(20) DEFAULT 'available' CHECK(`state` IN ('available','assigned')),
     create_at       TIMESTAMP DEFAULT NOW(),
@@ -47,7 +49,7 @@ CREATE TABLE IF NOT EXISTS inventory(
 
 CREATE TABLE IF NOT EXISTS department(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
-    `name`          VARCHAR(30) NOT NULL,
+    `name`          VARCHAR(30) NOT NULL UNIQUE,
     `description`   LONGTEXT NOT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
     create_at       TIMESTAMP DEFAULT NOW(),
@@ -59,7 +61,7 @@ CREATE TABLE IF NOT EXISTS employee(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     `name`          VARCHAR(30) NOT NULL,
     lastname        VARCHAR(30) NOT NULL,
-    email           VARCHAR(30) NOT NULL,
+    email           VARCHAR(30) NOT NULL UNIQUE,
     extensionnumber VARCHAR(10) NOT NULL,
     `date_add`      DATE DEFAULT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
@@ -70,7 +72,7 @@ CREATE TABLE IF NOT EXISTS employee(
     FOREIGN KEY(idDepartment) REFERENCES department(id)
 );
 
-DROP TABLE assigned;
+-- DROP TABLE assigned;
 CREATE TABLE IF NOT EXISTS assigned(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     idInventory     INTEGER(10) NOT NULL,
@@ -83,22 +85,25 @@ CREATE TABLE IF NOT EXISTS assigned(
 
 -- drop table `file`;
 CREATE TABLE IF NOT EXISTS `file`(
-    idEmployee      INTEGER(10) PRIMARY KEY NOT NULL,
-    `filename`      VARCHAR(50) NOT NULL,
+    idEmployee      INTEGER(10) NOT NULL,
+    `filename`      VARCHAR(50) NOT NULL UNIQUE,
     extension       VARCHAR(5) NOT NULL,
+    `type`          VARCHAR(10) CHECK(`type` IN ('L-E','L-D')),
     `delete`        BOOLEAN DEFAULT FALSE,
     create_at       TIMESTAMP DEFAULT NOW(),
     update_at       DATE DEFAULT NULL
 );
 
-drop table assigned;
+-- drop table assigned;
+
+
 
 /* insertando usuarios por defecto */
 INSERT INTO 
-    `user`(username, `password`, `admin`) 
+    `user`(username, `password`, `admin`, fullname, email) 
 VALUES
-    ('rafaga21', md5('1234'), true), 
-    ('rafaga22', md5('1234'), false);
+    ('rafaga21', md5('1234'), true, 'Rafael Minaya', 'rminaya@vopm.net'), 
+    ('mirta22', md5('1234'), false, 'Mirta Acevedo', 'macevedo@vopm.net');
 
 /* insertando marcas */
 INSERT INTO 
@@ -130,7 +135,7 @@ VALUES
     ('Rafael', 'Minaya Beltrán', 'rminaya@vopm.net', '2453', '2021-11-15', 6);
 
 -- Insertando asignaciones de dispositivos
-INSERT INTO assigned(idEmployee,idInventary,`state`) VALUES(1,5,'new');
+INSERT INTO assigned(idEmployee,idInventory,`state`) VALUES(1,5,'new');
 
 -- Insertando medios
 INSERT INTO 
@@ -140,4 +145,4 @@ VALUES
     ('Cargador'), ('Base de Laptop'), ('MousePad'), 
     ('Monitor'), ('Celular'), ('Teléfono IP'), ('Audífonos USB'), 
     ('Audífonos RJ'), ('Adaptador de Red USB'), ('Micrófono'), ('Joystick'),
-    ('Sensor de huella digital'), ('Cámara digital'), ('Cámara web'), ('Joystick');
+    ('Sensor de huella digital'), ('Cámara digital'), ('Cámara web');

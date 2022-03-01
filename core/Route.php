@@ -185,10 +185,10 @@ class Route
                         }
                         
                         if($view){
-                            Session::set('__LAST_ROUTE__', (Session::get('__CURRENT_ROUTE__') != $route['path']?Session::get('__CURRENT_ROUTE__'):Session::get('__LAST_ROUTE__')));
-                            Session::set('__CURRENT_ROUTE__', $route['path']);
-                        }else{
-                            exit;// se detiene si la vista es null.
+                            if(!is_array($view)){
+                                Session::set('__LAST_ROUTE__', (Session::get('__CURRENT_ROUTE__') != $route['path']?Session::get('__CURRENT_ROUTE__'):Session::get('__LAST_ROUTE__')));
+                                Session::set('__CURRENT_ROUTE__', $route['path']);
+                            }
                         }
                     }else{
                         Message::add('Acceso denegado');
@@ -202,15 +202,15 @@ class Route
             // Message::add("La url \"<b>$url</b>\" no existe!");
         }
         
-        if (is_array($view)) $view = json_encode($view);
-        elseif(is_object($view)) $view = serialize($view);
-        
-        if ($data['api']) {
+        if (is_array($view)){
+            $view = json_encode($view);
             if (!Message::exist()) echo $view; // mostrando resultados de la consulta
             else echo json_encode(['message' => 'Se requieren parámetros.', 'type' => 'error']);
             exit; // finalizando programa
+        }elseif(!$view){
+            Functions::reload((string)(Session::auth()?'/' . PAGE_ACCESS_AUTH:PAGE_INIT));
         }
-        
+
         if ($data['error']) { // verificando si existen errores en la redireccion
             Message::clear(); // borrando errores anteriores
             Message::add($data['error']['message'], 'danger'); // agregando nuevo error

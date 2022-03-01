@@ -66,7 +66,7 @@ namespace core; ?>
                 <?php if ($employee->unitAssigned) : ?>
                     <iframe src="<?= Route::get('letter.entry') ?>/<?= $employee->id ?>" id="employeeDocumentEntry" frameborder="0" hidden></iframe>
                     <?php if ($employee->letterEntryExists) : ?>
-                        <a href="{!!URL_ENTRY!!}" target="__blank" title="Carta de Entrega" class="btn btn-outline-secondary"><i class="fas fa-eye"></i></a>
+                        <a href="{!!URL_ENTRY!!}" target="_blank" title="Carta de Entrega" class="btn btn-outline-secondary"><i class="fas fa-eye"></i></a>
                     <?php endif; ?>
                     <button title="Imprimir Documento de Entrega" class="btn btn-outline-primary" id="printDocEntry"><i class="fa-solid fa-print"></i></button>
                 <?php endif; ?>
@@ -160,35 +160,63 @@ namespace core; ?>
         </div>
     </div>
 
-    <div class="mt-4">
-        <h3 class="text-muted">Historial de Dispositivos (<span class="text-success"><?= count($employee->unitLastAssigned) ?></span>)</h3>
-        <hr class="dropdown-divider">
-        <table class="table table-striped" id="datatablesSimple">
-            <thead>
-                <tr>
-                    <th>Dispositivo</th>
-                    <th>Entregado</th>
-                    <th>Recivido</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($employee->unitLastAssigned as $key => $lastUnit) : ?>
-                    <tr>
-                        <td>
-                            <?=$key+1?>. <a href="<?=Route::get('inventory.show')?>/<?=$lastUnit['idBrand']?>/<?=$lastUnit['idUnitType']?>"><?= $lastUnit['unitname'] ?></a>
-                        </td>
-                        <td><?= date('d/m/Y', strtotime($lastUnit['assigned_at'])) ?></td>
-                        <td>
-                            <?php if ($lastUnit['received_at']) : ?>
-                                <?= date('d/m/Y', strtotime($lastUnit['received_at'])) ?>
-                            <?php else : ?>
-                                <?= str_repeat('-', 10) ?>
-                            <?php endif; ?>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+    <div class="row">
+        <div class="col">
+            <div class="mt-4">
+                <h3 class="text-muted">Historial de Dispositivos (<span class="text-success"><?= count($employee->unitLastAssigned) ?></span>)</h3>
+                <hr class="dropdown-divider">
+                <table class="table table-striped" data-table>
+                    <thead>
+                        <tr>
+                            <th>Dispositivo</th>
+                            <th>Entregado</th>
+                            <th>Recibido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($employee->unitLastAssigned as $key => $lastUnit) : ?>
+                            <tr>
+                                <td>
+                                    <?=$key+1?>. <a href="<?=Route::get('inventory.show')?>/<?=$lastUnit['id']?>/"><?= $lastUnit['unitname'] ?></a>
+                                </td>
+                                <td><?= date('d/m/Y', strtotime($lastUnit['assigned_at'])) ?></td>
+                                <td>
+                                    <?php if ($lastUnit['received_at']) : ?>
+                                        <?= date('d/m/Y', strtotime($lastUnit['received_at'])) ?>
+                                    <?php else : ?>
+                                        <?= str_repeat('-', 10) ?>
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col">
+            <div class="mt-4">
+            <h3 class="text-muted">Historial de Cartas (<span class="text-success"><?= count($employee->letterEntrySigned) ?></span>)</h3>
+                <hr class="dropdown-divider">
+                <table class="table table-striped" data-table>
+                    <thead>
+                        <tr>
+                            <th>Carta</th>
+                            <th>Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($employee->letterEntrySigned as $key => $letter) : ?>
+                            <tr>
+                                <td>
+                                    <?=$key+1?>. <a href="<?=Functions::asset("doc/letter/entry/$letter->filename.$letter->extension")?>" target="_blank"><?=$letter->filename?></a>
+                                </td>
+                                <td><?=date('d M Y', strtotime($letter->create_at))?></td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
 

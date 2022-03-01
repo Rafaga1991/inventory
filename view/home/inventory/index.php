@@ -25,7 +25,7 @@
                                                 <select name="inventory[unit][]" class="form-control" required>
                                                     <option value="">-- Selecciona el Dispositivo --</option>
                                                     <?php foreach ($units as $unit) : ?>
-                                                        <option value="<?= $unit->id ?>"><?= $unit->name ?></option>
+                                                        <option value="<?= $unit->id ?>"><?= Functions::specialChar($unit->name) ?></option>
                                                     <?php endforeach; ?>
                                                 </select>
                                             </div>
@@ -84,7 +84,7 @@
                 <tr>
                     <td>
                         <?= $key + 1 ?>.
-                        <a href="<?= Route::get('inventory.show') ?>/<?= $value['idBrand'] ?>/<?= $value['idUnitType'] ?>">
+                        <a href="<?= Route::get('inventory.show') ?>/<?= $value['id'] ?>">
                             <?= $value['unitname'] ?>
                         </a>
                     </td>

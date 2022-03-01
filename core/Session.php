@@ -39,8 +39,8 @@ class Session{
      * Agrega un nuevo indice con valor en sesion.
      * 
      * @access public
-     * @param string $name recive el nombre del indice.
-     * @param string $value recive el valor que se le coloca al indice.
+     * @param string $name recibe el nombre del indice.
+     * @param string $value recibe el valor que se le coloca al indice.
      * @return void sin retorno.
      * @version 1.0
      * @author Rafael Minaya
@@ -52,7 +52,7 @@ class Session{
      * Retorna el valor de un indice en especifico.
      * 
      * @access public
-     * @param string $name recive el nombre del indice.
+     * @param string $name recibe el nombre del indice.
      * @return any retorna un objeto.
      * @version 1.0
      * @author Rafael Minaya
@@ -64,7 +64,7 @@ class Session{
      * Verifica si el indice existe.
      * 
      * @access public
-     * @param string $name recive el nombre del indice a verificar.
+     * @param string $name recibe el nombre del indice a verificar.
      * @return any retorna un onjeto.
      * @version 1.0
      * @author Rafael Minaya
@@ -76,7 +76,7 @@ class Session{
      * Elimina uno o todos los indices en sesion.
      * 
      * @access public
-     * @param string $name recive el nombre del indice a destruir.
+     * @param string $name recibe el nombre del indice a destruir.
      * @return void sin retorno.
      * @version 1.0
      * @author Rafael Minaya
@@ -102,7 +102,7 @@ class Session{
      * Agrega las credenciales de un usuario en sesion.
      * 
      * @access public
-     * @param mixed $credentials recive un arreglo con los datos del usuario logueado.
+     * @param mixed $credentials recibe un arreglo con los datos del usuario logueado.
      * @return void sin retorno.
      * @version 1.0
      * @author Rafael Minaya

@@ -26,7 +26,7 @@ class LoginController extends Controller{
 		]);
 		if($validation['validation']){
 			if($request->tokenIsValid()){
-				if($credentials = (new User())->where(['username' => $request->username, 'password' => md5($request->password)])->get()){
+				if($credentials = (new User())->where(['username' => $request->username, 'password' => md5($request->password), 'delete' => 0])->get()){
 					Session::setUser($credentials[0], 'admin');
 					Route::reload('home.index');
 				}else{

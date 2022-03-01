@@ -13,7 +13,7 @@
             <img src="<?=Functions::asset('image/logo.png')?>" width="40%" alt="">
         </div>
     </div>
-    <h3 class="text-center text-muted text-decoration-underline text-uppercase">Carta de Entrega de Equipo</h3>
+    <h3 class="text-center text-muted text-decoration-underline text-uppercase">Carta de Descargo de Equipo</h3>
     <div class="my-5">
         <table class="table">
             <thead>
@@ -47,17 +47,13 @@
             El trabajador manifiesta que:
         </div>
         <div class="py-2">
-            La dotación que en este acto se entrega, es y será propiedad en todo momento de 
-            <span class="fw-bold">{!!BUSINESS!!}</span>, que, en caso de finalización del contrato 
-            de trabajo o entrega de una nueva dotación, me comprometo a hacer la devolución de 
-            forma inmediata.
-        </div>
-        <div class="py-2">
-            Yo, <span class="fw-bold">{!!EMPLOYEE!!}</span>, expreso que al momento de recibir el equipo aquí especificado 
-            se realizaron las pruebas de funcionamiento y se encontraba en buen estado. 
-            Autorizo expresamente al <span class="fw-bold">{!!BUSINESS!!}</span>, mediante este documento a descontar de 
-            mis salarios o de mi liquidación de prestaciones, los valores de la dotación, 
-            cuando el daño o la pérdida de esta, haya sido mi exclusiva responsabilidad.
+            Yo, <span class="fw-bold">{!!EMPLOYEE!!}</span>, hago el descargo de los equipos que la empresa 
+            <span class="fw-bold">{!!BUSINESS!!}</span>, me entregó en condiciones 
+            óptimas y de los cuales me comprometí de que en el caso de que 
+            hubieran sufrido algún tipo de daño, notificaría a la empresa, 
+            conforme los protocolos establecidos y que se me descontaría de mis salarios 
+            o de mi liquidación de prestaciones, los valores de la dotación, cuando el 
+            daño o la pérdida de esta, haya sido mi exclusiva responsabilidad.
         </div>
         <div class="mt-5">
             <div class="row">

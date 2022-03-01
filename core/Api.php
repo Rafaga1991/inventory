@@ -30,7 +30,7 @@ class Api
      * Guarda los datos una vez realizada la busqueda.
      * 
      * @access private 
-     * @param array $data recive un arreglo de los datos a guardar.
+     * @param array $data recibe un arreglo de los datos a guardar.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -45,7 +45,7 @@ class Api
      * verifica si la ip existe en el token actual.
      * 
      * @access private
-     * @param string $ip recive la ip la cual se comprobará su existencia.
+     * @param string $ip recibe la ip la cual se comprobará su existencia.
      * @return bool retorna un buleano verificado si existe o no la ip.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -119,7 +119,7 @@ class Api
      * Gerena un token unico y crea un fichero con la información suministrada
      * 
      * @access public
-     * @param array $ips recive las ip que tendran acceso con el token generado.
+     * @param array $ips recibe las ip que tendran acceso con el token generado.
      * @return string retorna el token unico generado.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -147,7 +147,7 @@ class Api
      * Actualiza las ips de un determinado token.
      * 
      * @access public
-     * @param array $ips recive las nuevas ip.
+     * @param array $ips recibe las nuevas ip.
      * @return bool retorna un buleano confirmando la actualización.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -168,7 +168,7 @@ class Api
      * verifica si el token existe.
      * 
      * @access public
-     * @param string $token recive el token a verificar.
+     * @param string $token recibe el token a verificar.
      * @return bool retorna un buleano verificando la existencia del token.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -199,7 +199,7 @@ class Api
      * Agrega ips a un token en especifico.
      * 
      * @access public
-     * @param array $ip recive las ip que seran agregadas.
+     * @param array $ip recibe las ip que seran agregadas.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -245,8 +245,8 @@ class Api
      * Elimina una o varias ip de un token especifico.
      * 
      * @access public
-     * @param array $ip recive las ip que seran eliminadas.
-     * @param array &$_IP_DELETE recive una variable de referencia que almacena las ip eliminadas.
+     * @param array $ip recibe las ip que seran eliminadas.
+     * @param array &$_IP_DELETE recibe una variable de referencia que almacena las ip eliminadas.
      * @return bool retorna un buleano verificando la eliminación de las ip.
      * @author Rafael Minaya
      * @copyright R.M.B.

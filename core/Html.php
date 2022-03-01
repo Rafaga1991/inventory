@@ -121,8 +121,6 @@ class Html
             '</html>'
         ]);
 
-
-        $html = self::__variable($html);
-        echo Functions::replace($html, '{!!', '!!}');
+        echo Functions::replace(self::__variable($html), '{!!', '!!}');
     }
 }

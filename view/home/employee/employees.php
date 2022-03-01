@@ -13,7 +13,7 @@ namespace core; ?>
             Empleados Registrados
         </div>
         <div class="card-body">
-            <table id="datatablesSimple">
+            <table class="table table-striped" data-table>
                 <caption>
                     <div class="modal fade" tabindex="-1" id="newEmployee">
                         <div class="modal-dialog modal-dialog-centered">

@@ -21,7 +21,7 @@ class Inventory extends Model {
         ");
     }
     
-    public function getInventoryById($brandID, $unitID){
+    public function getInventoryById($id){
         return parent::query("SELECT 
             i.*, b.name `brandname`, ut.name `unitname`
         FROM 
@@ -32,8 +32,7 @@ class Inventory extends Model {
             i.`delete`=0 AND 
             b.`delete`=0 AND 
             ut.`delete`=0 AND 
-            i.idBrand=$brandID AND 
-            i.idUnitType=$unitID 
+            i.id=$id
             ORDER BY i.create_at DESC
         ");
     }

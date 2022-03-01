@@ -23,8 +23,8 @@ class File{
      * retorna el tamaño del archivo.
      * 
      * @access public
-     * @param int $type_size recive el tipo del tamaño del archivo a mostrar.
-     * @param bool $number recive un buleano para renortan entero sin el nombre del tipo de tamaño.
+     * @param int $type_size recibe el tipo del tamaño del archivo a mostrar.
+     * @param bool $number recibe un buleano para renortan entero sin el nombre del tipo de tamaño.
      * @return string retorna el tamaño del archivo.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -50,9 +50,9 @@ class File{
      * Mueve un archivo a otra carpeta.
      * 
      * @access private
-     * @param string $path recive la ruta donde será movido.
-     * @param string $filename recive el nombre del archivo.
-     * @param string $dir recive el nombre de la carpeta donde se colocará el archivo.
+     * @param string $path recibe la ruta donde será movido.
+     * @param string $filename recibe el nombre del archivo.
+     * @param string $dir recibe el nombre de la carpeta donde se colocará el archivo.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -72,8 +72,8 @@ class File{
      * Mueve un archivo a la carpeta asset por defecto.
      * 
      * @access private
-     * @param string $filename recive el nombre del archivo.
-     * @param string $dir recive el nombre de la carpeta donde se colocará el archivo.
+     * @param string $filename recibe el nombre del archivo.
+     * @param string $dir recibe el nombre de la carpeta donde se colocará el archivo.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -87,8 +87,8 @@ class File{
      * Mueve un archivo a cualquier otra carpeta especificada.
      * 
      * @access private
-     * @param string $filename recive el nombre del archivo.
-     * @param string $dir recive el nombre de la carpeta donde se colocará el archivo.
+     * @param string $filename recibe el nombre del archivo.
+     * @param string $dir recibe el nombre de la carpeta donde se colocará el archivo.
      * @return void sin retorno.
      * @author Rafael Minaya
      * @copyright R.M.B.

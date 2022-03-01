@@ -8,8 +8,8 @@ class Controller{
      * Verifica si un objeto y una función existen.
      * 
      * @access private
-     * @param string $controller recive el controlador u objeto a verificar su existencia.
-     * @param string $function recive el nombre de la función que será verificada si existe en el objeto pasado.
+     * @param string $controller recibe el controlador u objeto a verificar su existencia.
+     * @param string $function recibe el nombre de la función que será verificada si existe en el objeto pasado.
      * @return bool retorna un buleano indicando si existe o no la funcion y el objeto.
      * @author Rafael Minaya
      * @copyright R.M.B.
@@ -30,8 +30,8 @@ class Controller{
      * Retorna una vista de un contralador recivido
      * 
      * @access protected
-     * @param array $action recive un arreglo que contiene el controlador y la función.
-     * @param mixed $data recive los datos que seran enviados a la función.
+     * @param array $action recibe un arreglo que contiene el controlador y la función.
+     * @param mixed $data recibe los datos que seran enviados a la función.
      * @return string retorna una vista.
      */
     protected function view(array $action, $data=null):string{
@@ -50,8 +50,8 @@ class Controller{
      * Redirecciona a otra vista del mismo controlador.
      * 
      * @access protected
-     * @param string $function recive el nombre de la función a redirigir.
-     * @param mixed $data recive los datos a enviar a la función.
+     * @param string $function recibe el nombre de la función a redirigir.
+     * @param mixed $data recibe los datos a enviar a la función.
      * @return string retorna una vista.
      * @author Rafael Minaya
      * @copyright R.M.B.
