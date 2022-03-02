@@ -5,7 +5,7 @@
         <li class="breadcrumb-item active">Inventario de Medios</li>
     </ol>
 
-    <table class="table table-striped" id="datatablesSimple">
+    <table class="table table-striped" data-table>
         <caption>
             <div class="modal fade" tabindex="-1" id="newEmployee">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -16,7 +16,6 @@
                         </div>
                         <form action="<?= Route::get('inventory.new') ?>" method="post">
                             <div class="modal-body">
-
                                 <div id="container_row">
                                     <div class="row" id="row">
                                         <div class="col">
@@ -25,7 +24,7 @@
                                                 <select name="inventory[unit][]" class="form-control" required>
                                                     <option value="">-- Selecciona el Dispositivo --</option>
                                                     <?php foreach ($units as $unit) : ?>
-                                                        <option value="<?= $unit->id ?>"><?= Functions::specialChar($unit->name) ?></option>
+                                                        <option value="<?= $unit->id ?>"><?= $unit->name ?></option>
                                                     <?php endforeach; ?>
                                                 </select>
                                             </div>
@@ -55,7 +54,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="text-end pt-3" id="btn_container">
                                     <button onclick="createRow()" type="button" class="btn btn-primary" title="Nueva Fila"><i class="fas fa-plus"></i></button>
                                 </div>

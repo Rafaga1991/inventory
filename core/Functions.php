@@ -424,18 +424,6 @@ trait Functions{
             include $path;
         }
     }
-
-    public static function specialChar(string $text){
-        return str_replace([
-            'á','é','í','ó','ú',
-            'Á','É','Í','Ó','Ú',
-            'ñ','Ñ'
-        ], [
-            '&aacute;','&eacute;','&iacute;','&oacute;','&uacute;',
-            '&Aacute;','&Eacute;','&Iacute;','&Oacute;','&Uacute;',
-            '&ntilde;','&Ntilde;'
-        ], $text);
-    }
     
     /**
      * Se encarga de inicializar la página

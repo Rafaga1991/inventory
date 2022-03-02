@@ -63,9 +63,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col fw-bold pt-1">Soporte T&eacute;cnico</div>
-            <div class="col"></div>
             <div class="col fw-bold pt-1">Empelado</div>
+            <div class="col"></div>
+            <div class="col fw-bold pt-1">Soporte T&eacute;cnico</div>
         </div>
     </div>
 </div>

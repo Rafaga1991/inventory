@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS employee(
     id              INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
     `name`          VARCHAR(30) NOT NULL,
     lastname        VARCHAR(30) NOT NULL,
-    email           VARCHAR(30) NOT NULL UNIQUE,
+    email           VARCHAR(30) NOT NULL,
     extensionnumber VARCHAR(10) NOT NULL,
     `date_add`      DATE DEFAULT NULL,
     `delete`        BOOLEAN DEFAULT FALSE,
@@ -132,7 +132,7 @@ VALUES
 INSERT INTO 
     employee(`name`,lastname,email,extensionnumber,`date_add`,idDepartment)
 VALUES
-    ('Rafael', 'Minaya Beltrán', 'rminaya@vopm.net', '2453', '2021-11-15', 6);
+    ('admin', 'admin', 'admin@vopm.net', '2453', '2021-11-15', 6);
 
 -- Insertando asignaciones de dispositivos
 INSERT INTO assigned(idEmployee,idInventory,`state`) VALUES(1,5,'new');
